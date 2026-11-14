@@ -1,0 +1,8 @@
+# SlideCraft — Python-зависимости
+# Установка:  pip install -r requirements.txt
+
+# Веб-поиск для промпта презентации (DuckDuckGo, без API-ключа).
+# Можно установить либо duckduckgo-search (старая версия, рабочий API),
+# либо ddgs (новая версия, переименованный пакет).
+# search.py поддерживает оба варианта.
+duckduckgo-search>=7.0,<9.0

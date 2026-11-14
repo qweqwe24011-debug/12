@@ -1,0 +1,32 @@
+# Секреты — НИКОГДА в git
+.env
+.env.*
+!.env.example
+
+# Auth-данные (хранилище пользователей и сессий)
+users.json
+sessions.json
+
+# Self-signed сертификаты (если USE_HTTPS=true)
+cert.pem
+key.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# Временные файлы конвертации
+*.odp
+*.pptx
+!export-pptx.js
+!export-odp.js
